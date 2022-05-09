@@ -19,6 +19,9 @@ function App() {
     },
     {
       name: 'portfolio'
+    },
+    {
+      name: 'resume'
     }
   ]);
   // declared state variables that a variable an the other is the method to change variable val. the default is whatever

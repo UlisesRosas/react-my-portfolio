@@ -12,15 +12,16 @@ function Nav() {
       <div className="collapse navbar-collapse" id="navbarNav">
         {/* Todo: use the .map method to iterate over the pages array from app.js to create ul li's */}
         <ul className="navbar-nav">
+          {page.map((pages))
           <li className="nav-item">
             {/* <a className="nav-link active" aria-current="page" href="#">Home</a> */}
             <div>Home</div>
-          </li>
+          </li>}
         </ul>
       </div>
     </div>
   </nav>
-  )
+
 }
 
 // exporting component function

@@ -2,6 +2,7 @@ import React from 'react';
 import About from '../About';
 import Portfolio from '../Portfolio';
 import Contact from '../Contact';
+import Resume from '../Resume'
 
 // we are letting page know what page we are in from state
 function Page ({currentPage}) {
@@ -14,6 +15,8 @@ function Page ({currentPage}) {
                 return <Portfolio/>;
             case 'contact':
                 return <Contact/>;
+            case 'resume':
+                return <Resume/>
         }
     }
 
