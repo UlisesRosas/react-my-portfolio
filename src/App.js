@@ -3,6 +3,9 @@ import React, { useState } from 'react';
 import './App.css';
 // import components
 import Header from './compnents/Header'
+import Nav from './compnents/Nav'
+import Page from './compnents/Page'
+import Footer from './compnents/Footer'
 
 
 function App() {
@@ -27,6 +30,7 @@ function App() {
       {/* placing component by calling the component function name as a tag */}
       <Header>
         <Nav
+        // these props are being passed to the Nav component
         // maps through our components
         pages = {pages}
         // gets the current page from array
@@ -35,6 +39,7 @@ function App() {
         setCurrentPage = {setCurrentPage}>
         </Nav>
       </Header>
+      {/* TODO consider putting page in to a <main> tag  */}
       <Page
       // passing the current page to 'page'
       currentPage = {currentPage}></Page>
