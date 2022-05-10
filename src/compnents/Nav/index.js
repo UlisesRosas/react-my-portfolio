@@ -1,7 +1,15 @@
 
 import React from 'react';
 
-function Nav() {
+// use props to pass down the page array from App
+function Nav(props) {
+  //
+  console.log(props);
+  const {
+
+  } = props
+
+
   return(
     <nav className="navbar navbar-expand-lg navbar-light bg-light">
     <div className="container-fluid">
@@ -12,15 +20,17 @@ function Nav() {
       <div className="collapse navbar-collapse" id="navbarNav">
         {/* Todo: use the .map method to iterate over the pages array from app.js to create ul li's */}
         <ul className="navbar-nav">
-          {page.map((pages))
-          <li className="nav-item">
+        {props.pages.map((page) => (
+          <li className="nav-item"
+          key={page?.name}>
             {/* <a className="nav-link active" aria-current="page" href="#">Home</a> */}
             <div>Home</div>
-          </li>}
+          </li>))}
         </ul>
       </div>
     </div>
   </nav>
+  )
 
 }
 
