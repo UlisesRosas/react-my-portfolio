@@ -26,8 +26,8 @@ function App() {
   ]);
   // declared state variables that a variable an the other is the method to change variable val. the default is whatever
   // first page needs to be. in this case the first array object
-  const [currentPage, setCurrentPage ] = useState(pages[0]);
-
+  const [currentPage, setCurrentPage ] = useState(pages[0].name);
+console.log(currentPage)
   return (
     <div className="App">
       {/* placing component by calling the component function name as a tag */}
