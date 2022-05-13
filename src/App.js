@@ -6,6 +6,7 @@ import Header from './compnents/Header'
 import Nav from './compnents/Nav'
 import Page from './compnents/Page'
 import Footer from './compnents/Footer'
+// import './bootstrap/dist/bootstrap.min.css';
 
 
 function App() {
