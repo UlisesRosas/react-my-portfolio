@@ -30,7 +30,7 @@ function App() {
   const [currentPage, setCurrentPage ] = useState(pages[0].name);
 console.log(currentPage)
   return (
-    <div className="App">
+    <div style={{backgroundColor: '#adadeb'}} className="App vh-100" >
       {/* placing component by calling the component function name as a tag */}
       <Header>
         <Nav
@@ -44,9 +44,13 @@ console.log(currentPage)
         </Nav>
       </Header>
       {/* TODO consider putting page in to a <main> tag  */}
+      <main>
       <Page
       // passing the current page to 'page'
-      currentPage = {currentPage}></Page>
+      currentPage = {currentPage}>
+      </Page>
+      </main>
+
       <Footer></Footer>
 
     </div>

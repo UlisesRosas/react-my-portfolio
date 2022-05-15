@@ -19,14 +19,14 @@ function Nav(props) {
 
   return (
 
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-      <div class="container-fluid">
-        <a class="navbar-brand" href="#">Ulises Rosas</a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav">
+    <nav className="row navbar navbar-expand-lg navbar-dark bg-dark">
+      <div className="container-fluid">
+        <h1 className="navbar-brand">Ulises Rosas</h1>
+        {/* <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span className="navbar-toggler-icon"></span>
+        </button> */}
+        <div className="navbar-collapse flex-grow-0" id="navbarNav">
+          <ul className="navbar-nav justify-content-end">
             {/* passed in index to be able to create a li for every item in the pages array */}
             {props.pages.map((page) => (
               <li className="nav-item m-1 nav-link"
