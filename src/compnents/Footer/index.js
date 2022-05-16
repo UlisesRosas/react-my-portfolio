@@ -5,8 +5,8 @@ import React from 'react';
 function Footer() {
     return (
         // <footer className="bg-dark text-white position-absolute bottom-0 w-100">This is the footer</footer>
-        <footer style={{backgroundColor: '#adadeb'}} className="bd-footer pt-5">
-        <div className="container pt-5">
+        <footer style={{backgroundColor: '#adadeb'}} className="row bd-footer pt-5" >
+        <div className=" pt-5">
           <div className="row">
             {/* <div className="col-lg-3 mb-3">
               <a className="d-inline-flex align-items-center mb-2 link-dark text-decoration-none" href="/" aria-label="Bootstrap">
@@ -19,7 +19,7 @@ function Footer() {
                 <li className="mb-2">Currently v5.0.2.</li>
               </ul>
             </div> */}
-            <div className="col col-lg-3 position-relative start-50 translate-middle">
+            <div className="col col-lg- position-relative start-50 translate-middle">
               <h5>Links</h5>
               {/* logo and github link */}
               <a href="https://github.com/UlisesRosas" className="m-2">
