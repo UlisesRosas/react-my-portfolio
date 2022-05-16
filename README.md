@@ -1,6 +1,6 @@
-# Getting Started with Create React App
+# React-My-Portfolio
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This application was built to showcase projects and to get connected
 
 ## Available Scripts
 
@@ -68,3 +68,14 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+### Built With
+*JavaScript *React *BootStrap
+
+### Built With
+![App](./assets/images/free-to-play-games-api.png "Title")
+![Website](./assets/images/6FeetGaming.png "Title")
+
+### Contribution
+Made By: [Ulises Rosas]
+
