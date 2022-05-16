@@ -19,35 +19,18 @@ function Footer() {
                 <li className="mb-2">Currently v5.0.2.</li>
               </ul>
             </div> */}
-            <div className="col-6 col-lg-2 offset-lg-1 mb-3">
+            <div className="col col-lg-3 position-relative start-50 translate-middle">
               <h5>Links</h5>
-              <ul className="list-unstyled">
-                <li className="mb-2"><a href="/">Home</a></li>
-              </ul>
               {/* logo and github link */}
-              <a href="https://github.com/UlisesRosas">
+              <a href="https://github.com/UlisesRosas" className="m-2">
                   <img src="../../assets/images/Github-Mark-32px.png" alt="github"></img>
               </a>
-            </div>
-            {/* add linked in logo somewhere in this def */}
-            <div className="col-6 col-lg-2 mb-3">
-              <h5>Guides</h5>
-              <ul className="list-unstyled">
-                <li className="mb-2"><a href="/docs/5.0/getting-started/">Getting started</a></li>
-              </ul>
-            </div>
-            {/* add stack overflow somewhere in this div */}
-            <div className="col-6 col-lg-2 mb-3">
-              <h5>Projects</h5>
-              <ul className="list-unstyled">
-                <li className="mb-2"><a href="https://github.com/twbs/bootstrap">Bootstrap 5</a></li>
-              </ul>
-            </div>
-            <div className="col-6 col-lg-2 mb-3">
-              <h5>Community</h5>
-              <ul className="list-unstyled">
-                <li className="mb-2"><a href="https://stackoverflow.com/questions/tagged/bootstrap-5">Stack Overflow</a></li>
-              </ul>
+              <a href="https://www.linkedin.com/feed/" className="m-2">
+                  <img src="../../assets/images/Li-In-Bug-32px.png" alt="github"></img>
+              </a>
+              <a href="https://stackoverflow.com/users/17476564/ulisesrosas" className="m-2">
+                  <img src="../../assets/images/Logo-stackoverflow-32px.png" alt="github"></img>
+              </a>
             </div>
           </div>
         </div>
