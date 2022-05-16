@@ -72,9 +72,9 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 ### Built With
 *JavaScript *React *BootStrap
 
-### Built With
-![App](./assets/images/free-to-play-games-api.png "Title")
-![Website](./assets/images/6FeetGaming.png "Title")
+### Website
+https://ulisesrosas.github.io/react-my-portfolio/
+![Website](./public/assets/images/React-%20App.gif "Title")
 
 ### Contribution
 Made By: [Ulises Rosas]
