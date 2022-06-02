@@ -31,9 +31,9 @@ function Portfolio() {
                 <div class="col-sm-6 mt-4">
                     <div className="card bg-dark text-light" style={{ width: '18rem;' }}>
                         <div className="card-body">
-                            <img src="../../assets/images/item2-image.jpg" className="card-img-top" alt="project"/>
-                            <h5 className="card-title">Filler Project</h5>
-                            <a href="#" className="btn btn-secondary">Go To</a>
+                            <img src="../../assets/images/partyHearty.jpg" className="card-img-top" alt="project"/>
+                            <h5 className="card-title">Party Hearty</h5>
+                            <a href="https://github.com/sammcowen/party_hearty" className="btn btn-secondary">Go To</a>
                         </div>
                     </div>
                 </div>
