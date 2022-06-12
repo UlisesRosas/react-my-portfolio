@@ -8,8 +8,8 @@ function Portfolio() {
             </div>
             <div className="row ms-1">
                 {/* portfolio item */}
-                <div class="col-sm-6 mt-4">
-                    <div className="card bg-dark text-light" style={{ width: '18rem;' }}>
+                <div className="col-sm-6 mt-4">
+                    <div className="card bg-dark text-light" style={{ width: '18rem' }}>
                         <div className="card-body">
                             <img src="../../assets/images/6feetAwayWideSized.jpg" className="card-img-top" alt="project"/>
                             <h5 className="card-title">6FeetAwayGaming</h5>
@@ -18,8 +18,8 @@ function Portfolio() {
                     </div>
                 </div>
                 {/* portfolio item */}
-                <div class="col-sm-6 mt-4">
-                    <div className="card bg-dark text-light" style={{ width: '18rem;' }}>
+                <div className="col-sm-6 mt-4">
+                    <div className="card bg-dark text-light" style={{ width: '18rem' }}>
                         <div className="card-body">
                             <img src="../../assets/images/only-friends.jpg" className="card-img-top" alt="project"/>
                             <h5 className="card-title">Only_Friends</h5>
@@ -28,8 +28,8 @@ function Portfolio() {
                     </div>
                 </div>
                 {/* portfolio item */}
-                <div class="col-sm-6 mt-4">
-                    <div className="card bg-dark text-light" style={{ width: '18rem;' }}>
+                <div className="col-sm-6 mt-4">
+                    <div className="card bg-dark text-light" style={{ width: '18rem' }}>
                         <div className="card-body">
                             <img src="../../assets/images/partyHearty.jpg" className="card-img-top" alt="project"/>
                             <h5 className="card-title">Party Hearty</h5>
@@ -38,8 +38,8 @@ function Portfolio() {
                     </div>
                 </div>
                 {/* portfolio item */}
-                <div class="col-sm-6 mt-4">
-                    <div className="card bg-dark text-light" style={{ width: '18rem;' }}>
+                <div className="col-sm-6 mt-4">
+                    <div className="card bg-dark text-light" style={{ width: '18rem' }}>
                         <div className="card-body">
                             <img src="../../assets/images/item4-image.jpg" className="card-img-top" alt="project"/>
                             <h5 className="card-title">Filler Project</h5>
@@ -48,8 +48,8 @@ function Portfolio() {
                     </div>
                 </div>
                 {/* portfolio item */}
-                <div class="col-sm-6 mt-4">
-                    <div className="card bg-dark text-light" style={{ width: '18rem;' }}>
+                <div className="col-sm-6 mt-4">
+                    <div className="card bg-dark text-light" style={{ width: '18rem' }}>
                         <div className="card-body">
                             <img src="../../assets/images/item5-image.jpg" className="card-img-top" alt="project"/>
                             <h5 className="card-title">Filler Project</h5>
@@ -58,8 +58,8 @@ function Portfolio() {
                     </div>
                 </div>
                 {/* portfolio item */}
-                <div class="col-sm-6 mt-4">
-                    <div className="card bg-dark text-light" style={{ width: '18rem;' }}>
+                <div className="col-sm-6 mt-4">
+                    <div className="card bg-dark text-light" style={{ width: '18rem' }}>
                         <div className="card-body">
                             <img src="../../assets/images/item2-image.jpg" className="card-img-top" alt="project"/>
                             <h5 className="card-title">Filler Project</h5>

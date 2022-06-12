@@ -9,7 +9,7 @@ function Resume() {
             <div className="row">
                 <h1 className="text-center mt-3">Resume</h1>
                 {/* resume downloadable ancor */}
-                <a classname="col" href="../../assets/docs/resume.pdf" download>
+                <a className="col" href="../../assets/docs/resume.pdf" download>
                     <button type="button" class="btn btn-outline-secondary">Download</button>
                 </a>
             </div>
