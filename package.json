@@ -1,4 +1,4 @@
-{ "home" : "https://create-react-app.dev/docs/deployment/",
+{ "home" : " https://ulisesrosas.github.io/react-my-portfolio/",
   "name": "react-port",
   "version": "0.1.0",
   "private": true,
@@ -7,6 +7,7 @@
     "@testing-library/react": "^13.2.0",
     "@testing-library/user-event": "^13.5.0",
     "bootstrap": "^5.1.3",
+    "gh-pages": "^4.0.0",
     "react": "^18.1.0",
     "react-dom": "^18.1.0",
     "react-lorem-ipsum": "^1.4.10",
