@@ -21,7 +21,7 @@ function Nav(props) {
 
     <nav className="row navbar navbar-expand-lg navbar-dark bg-dark">
       <div className="container-fluid">
-        <h1 className="navbar-brand ms-2">Ulises Rosas</h1>
+        <h1 className="navbar-brand ms-2">James</h1>
         {/* <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span className="navbar-toggler-icon"></span>
         </button> */}
