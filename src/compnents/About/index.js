@@ -1,5 +1,4 @@
 import React from 'react';
-
 import { LoremIpsum } from 'react-lorem-ipsum';
 
 function About() {
