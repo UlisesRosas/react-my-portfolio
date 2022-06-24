@@ -1,15 +1,19 @@
 {
   "files": {
     "main.css": "/react-my-portfolio/static/css/main.ff79ec8e.css",
-    "main.js": "/react-my-portfolio/static/js/main.04cf1fec.js",
+    "main.js": "/react-my-portfolio/static/js/main.b6eb01da.js",
     "static/js/787.be613c5b.chunk.js": "/react-my-portfolio/static/js/787.be613c5b.chunk.js",
+    "static/media/berserker-image-200px.png": "/react-my-portfolio/static/media/berserker-image-200px.804bda0c343d9cd5ff82.png",
+    "static/media/6feetAwayWideSized.jpg": "/react-my-portfolio/static/media/6feetAwayWideSized.00e02224633a4d0d7767.jpg",
+    "static/media/partyHearty.jpg": "/react-my-portfolio/static/media/partyHearty.b504387ac174051373d3.jpg",
+    "static/media/only-friends.jpg": "/react-my-portfolio/static/media/only-friends.16b807306a526ca4363e.jpg",
     "index.html": "/react-my-portfolio/index.html",
     "main.ff79ec8e.css.map": "/react-my-portfolio/static/css/main.ff79ec8e.css.map",
-    "main.04cf1fec.js.map": "/react-my-portfolio/static/js/main.04cf1fec.js.map",
+    "main.b6eb01da.js.map": "/react-my-portfolio/static/js/main.b6eb01da.js.map",
     "787.be613c5b.chunk.js.map": "/react-my-portfolio/static/js/787.be613c5b.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.ff79ec8e.css",
-    "static/js/main.04cf1fec.js"
+    "static/js/main.b6eb01da.js"
   ]
 }
