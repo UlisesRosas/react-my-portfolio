@@ -59,10 +59,14 @@ import Tooltip from '@mui/material/Tooltip';
 import MenuItem from '@mui/material/MenuItem';
 import AdbIcon from '@mui/icons-material/Adb';
 
-const pages = ['Products', 'Pricing', 'Blog'];
-const settings = ['Profile', 'Account', 'Dashboard', 'Logout'];
-
 const ResponsiveAppBar = (props) => {
+   
+  const {
+    pages = [],
+    currentPage,
+    setCurrentPage,
+
+  } = props
   const [anchorElNav, setAnchorElNav] = React.useState(null);
   const [anchorElUser, setAnchorElUser] = React.useState(null);
 
@@ -74,19 +78,12 @@ const ResponsiveAppBar = (props) => {
   };
 
   const handleCloseNavMenu = () => {
-    setAnchorElNav(null);
+    // setAnchorElNav(null);
+    // setCurrentPage(page.name);
   };
 
-  const handleCloseUserMenu = () => {
-    setAnchorElUser(null);
-  };
 
-  const {
-    pages = [],
-    currentPage,
-    setCurrentPage,
 
-  } = props
 
   return (
     <AppBar position="static">
@@ -109,8 +106,10 @@ const ResponsiveAppBar = (props) => {
           >
             Ulises Rosas
           </Typography>
-
+          
+            {/* this container is for small media querie breakpoint */}
           <Box sx={{ flexGrow: 1, display: { xs: 'flex', md: 'none' } }}>
+            {/* This element is for the colapsed version of the nav bar that apears for smaller windows */}
             <IconButton
               size="large"
               aria-label="account of current user"
@@ -119,6 +118,7 @@ const ResponsiveAppBar = (props) => {
               onClick={handleOpenNavMenu}
               color="inherit"
             >
+              {/* this is the icon itself withiut the button logic */}
               <MenuIcon />
             </IconButton>
             <Menu
@@ -164,6 +164,8 @@ const ResponsiveAppBar = (props) => {
             }}
           >
           </Typography>
+
+          {/* This container is for the larger meadia query break point */}
           <Box sx={{ flexGrow: 1, display: { xs: 'none', md: 'flex' } }}>
             {/* maps through pages array passed in through props*/}
             {props.pages.map((page) => (
@@ -176,12 +178,9 @@ const ResponsiveAppBar = (props) => {
               </Button>
             ))}
           </Box>
-
+            {/* This container is for the Avatar*/}
           <Box sx={{ flexGrow: 0 }}>
-            {/* <Tooltip title="Open settings"> */}
-              <IconButton onClick={handleOpenUserMenu} sx={{ p: 0 }}>
                 <Avatar alt="Remy Sharp" src="/static/images/avatar/2.jpg" />
-              </IconButton>
           </Box>
         </Toolbar>
       </Container>
