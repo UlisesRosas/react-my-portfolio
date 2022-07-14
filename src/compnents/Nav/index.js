@@ -80,6 +80,9 @@ const ResponsiveAppBar = (props) => {
   const handleCloseNavMenu = () => {
     // setAnchorElNav(null);
     // setCurrentPage(page.name);
+    console.log(pages);
+    console.log(pages.name);
+   // setCurrentPage(pages.name);
   };
 
 
